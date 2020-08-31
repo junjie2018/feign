@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: feign-producer-a
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.53.22:8001/eureka/
+
+
